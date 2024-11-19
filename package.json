@@ -1,0 +1,25 @@
+{
+  "name": "filimoproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "mini": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "banner": "json-server --watch ./database/banner.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwind-scrollbar": "^3.1.0",
+    "tailwindcss": "^3.4.9"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "json-server": "^1.0.0-beta.2"
+  },
+  "tags": [
+    "swiper"
+  ]
+}
